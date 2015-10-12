@@ -7,7 +7,7 @@
 #include <android/log.h>
 #include <malloc.h>
 
-#define LOG_TAG "System,out.c"
+#define LOG_TAG "System.out.c"
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO,LOG_TAG,__VA_ARGS__)
 
 jstring Java_com_example_huanqi_myapplication_MainActivity_getHelloFromC(JNIEnv *env , jobject obj) //package name + method name
