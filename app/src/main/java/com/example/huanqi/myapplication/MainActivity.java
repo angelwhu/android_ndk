@@ -9,11 +9,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    static {
-        System.loadLibrary("Hello");  //load modules  Hello.so
-        System.loadLibrary("datatest");
-    }
-
     public native String getHelloFromC();
     public native String get_hello_from_c();
 

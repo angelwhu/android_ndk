@@ -4,6 +4,12 @@ package com.example.huanqi.myapplication;
  * Created by HuAnqi on 2015-09-24.
  */
 public class DataProvider {
+
+    static {
+        System.loadLibrary("Hello");  //load modules  Hello.so
+        System.loadLibrary("datatest");
+    }
+
     /**
      *
      * @param a   integer  a
